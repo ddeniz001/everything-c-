@@ -125,10 +125,6 @@ bool loadMedia()
 
 void close()
 {
-	//Deallocate surface
-	SDL_FreeSurface( gXOut );
-	gXOut = NULL;
-
 	//Destroy window
 	SDL_DestroyWindow( gWindow );
 	gWindow = NULL;
